@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f989abe-a520-4fef-a956-fdbbf3368358" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Alerts/HandleAlertusingExplicitWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Alerts/HandleAuthenticatedPOPups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Alerts/HandlingAlerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AssignmentWindowHandles/AssignmentWindowHandles.java" afterDir="false" />
+    <list default="true" id="9f989abe-a520-4fef-a956-fdbbf3368358" name="Changes" comment="Practice project">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CSSSelectors/CSSSelectors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CheckBoxes/HandleCheckBoxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ConditionalMethods/ConditionalMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DatePicker/DatePicker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BrokenLinks/HandlingBrokenLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BrokenLinks/HandlingBrokenLinks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +45,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AssignmentWindowHandles">
+  <component name="RunManager" selected="Application.DatePicker">
     <configuration name="AssignmentWindowHandles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AssignmentWindowHandles.AssignmentWindowHandles" />
       <module name="AutomationPractice" />
@@ -63,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandleAlertusingExplicitWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Alerts.HandleAlertusingExplicitWait" />
+    <configuration name="ConditionalMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConditionalMethods.ConditionalMethods" />
       <module name="AutomationPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Alerts.*" />
+          <option name="PATTERN" value="ConditionalMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +72,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandlingAlerts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Alerts.HandlingAlerts" />
+    <configuration name="DatePicker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DatePicker.DatePicker" />
       <module name="AutomationPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Alerts.*" />
+          <option name="PATTERN" value="DatePicker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HandleCheckBoxes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CheckBoxes.HandleCheckBoxes" />
+      <module name="AutomationPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CheckBoxes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HandlingBrokenLinks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BrokenLinks.HandlingBrokenLinks" />
+      <module name="AutomationPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BrokenLinks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,9 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DatePicker" />
+        <item itemvalue="Application.ConditionalMethods" />
+        <item itemvalue="Application.HandleCheckBoxes" />
+        <item itemvalue="Application.HandlingBrokenLinks" />
         <item itemvalue="Application.AssignmentWindowHandles" />
-        <item itemvalue="Application.HandlingAlerts" />
-        <item itemvalue="Application.HandleAlertusingExplicitWait" />
       </list>
     </recent_temporary>
   </component>
@@ -106,6 +130,14 @@
       <option name="presentableId" value="Default" />
       <updated>1755437476474</updated>
     </task>
+    <task id="LOCAL-00001" summary="Practice project">
+      <created>1755440058174</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755440058174</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,5 +150,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Practice project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice project" />
   </component>
 </project>
